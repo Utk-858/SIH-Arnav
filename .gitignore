@@ -57,3 +57,7 @@ jspm_packages/
 .idea/
 *.sublime-workspace
 *.sublime-project.next/
+.next/
+node_modules/
+out/
+.DS_Store
