@@ -1,0 +1,51 @@
+{
+  "name": "solveai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SolveAI - Ayurvedic Diet Management Platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "seed": "ts-node scripts/seed-test-data.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "ayurveda",
+    "diet",
+    "healthcare",
+    "api"
+  ],
+  "author": "SolveAI Team",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.0",
+    "@google-cloud/text-to-speech": "^6.3.0",
+    "@googlemaps/places": "^2.1.0",
+    "@langchain/core": "^0.3.78",
+    "@langchain/google-vertexai": "^0.2.18",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "axios": "^1.12.2",
+    "better-sqlite3": "^12.0.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "helmet": "^8.1.0",
+    "langchain": "^0.3.35",
+    "puppeteer": "^24.23.0",
+    "redis": "^5.8.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@types/puppeteer": "^5.4.7",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
+}

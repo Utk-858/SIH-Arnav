@@ -1,0 +1,1 @@
+{"version":3,"file":"mealTracking.d.ts","sourceRoot":"","sources":["../../src/services/mealTracking.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,YAAY,EAAE,MAAM,UAAU,CAAC;AAExC,eAAO,MAAM,mBAAmB;;kBAKhB,MAAM;8BAGM,MAAM;gCAMJ,MAAM;mBAMnB,IAAI,CAAC,YAAY,EAAE,IAAI,CAAC;iBAG1B,MAAM,QAAQ,OAAO,CAAC,IAAI,CAAC,YAAY,EAAE,IAAI,CAAC,CAAC;iBAI/C,MAAM;CACpB,CAAC"}

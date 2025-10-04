@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A vibrant and healthy salad in a bowl, representing a balanced diet.",
+      "imageUrl": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwZm9vZHxlbnwwfHx8fDE3NTkxNTIxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy food"
+    },
+    {
+      "id": "feature-diet-chart",
+      "description": "A person writing in a notebook, symbolizing diet planning.",
+      "imageUrl": "https://images.unsplash.com/photo-1621485099116-dfc893e4f31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGxhbm5pbmclMjBkaWV0fGVufDB8fHx8MTc1OTE2NjU1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "planning diet"
+    },
+    {
+      "id": "feature-chatbot",
+      "description": "A smartphone displaying a chat interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1642724978770-e27d781662d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2JpbGUlMjBjaGF0fGVufDB8fHx8MTc1OTE1OTE0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile chat"
+    },
+    {
+      "id": "feature-monitoring",
+      "description": "A dashboard with charts and graphs, representing health monitoring.",
+      "imageUrl": "https://images.unsplash.com/photo-1635183607544-bf69187cc310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGVhbHRoJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc1OTE2NjU1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "health dashboard"
+    }
+  ]
+}

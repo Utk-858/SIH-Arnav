@@ -1,0 +1,99 @@
+1. Tech Stack
+
+Frontend:
+
+Next.js: React-based framework for server-side rendering and static site generation
+
+TypeScript: Type-safe JavaScript for better maintainability
+
+TailwindCSS: Utility-first CSS framework for responsive and clean UI
+
+Shadcn/UI & Tavily: Prebuilt UI components for dashboards and forms
+
+Backend:
+
+Node.js + Express.js: REST API server
+
+TypeScript: Type-safe backend code
+
+LangChain + LangGraph: AI agent for diet recommendation logic
+
+Vertex AI + Gemini 1.5 Pro: AI optimization and reasoning for diet plans
+
+Database & Caching:
+
+Firebase Firestore: NoSQL database for persistent storage of users, vitals, diet charts, and logs
+
+Redis: Caching layer for real-time data and session management
+
+Authentication:
+
+Firebase Auth: Secure authentication for users, hospitals, and dieticians
+
+Speech & NLP:
+
+Google Cloud Speech API: Convert speech to text for interactive chatbot
+
+Mozilla DeepSpeech: Open-source speech recognition for offline/alternative usage
+
+2. APIs Integration
+
+Nutritional Data:
+
+IFCT (Indian Food Composition Tables)
+
+USDA FoodData Central
+
+Ayurvedic Properties:
+
+Open-source Ayurveda REST API (GitHub)
+
+Banyan Botanicals Database (for recipes and dosha-specific foods)
+
+Ayurvedic Institute Food Guidelines
+
+CCRAS Research Data
+
+Ministry of AYUSH policies and official guidelines
+
+Other APIs:
+
+Weather API: Seasonal adjustments for diet plans
+
+Custom AI agent APIs (LangChain + Vertex AI) for automated diet recommendations
+
+3. Cloud Infrastructure
+
+Google Cloud Run: Serverless containerized deployment with auto-scaling
+
+Docker & Kubernetes: Containerization and orchestration for microservices
+
+Firebase Firestore: Managed NoSQL database for persistence
+
+Redis (Cloud or Managed): Caching for real-time interactions, meal adherence tracking, and chat sessions
+
+4. Security
+
+Authentication & Authorization: Firebase Auth for role-based access (User, Hospital, Dietician)
+
+Data Encryption: Encryption at rest and in transit (Firestore + Redis)
+
+HIPAA / Local Compliance: Ensure sensitive health data privacy standards are met
+
+Audit Logging: Track modifications of diet plans, vitals, and medical records
+
+5. Scalability
+
+Auto-scaling: Cloud Run automatically scales containers based on traffic
+
+Horizontal Scaling: Kubernetes clusters for backend microservices
+
+Database Scaling: Firestore scales automatically for large datasets; Redis handles high throughput caching
+
+Performance Optimization:
+
+Caching frequent queries and AI recommendations in Redis
+
+Asynchronous AI model calls with LangChain + Vertex AI
+
+CDN for static assets (TailwindCSS + Next.js build)
