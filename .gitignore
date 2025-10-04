@@ -56,4 +56,4 @@ jspm_packages/
 .vscode/
 .idea/
 *.sublime-workspace
-*.sublime-project
+*.sublime-project.next/
